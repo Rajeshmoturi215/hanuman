@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+body {margin:0;}
+
+.header {height:70px;
+display:flex;
+align-items:center;
+justify-content:space-between; 
+padding:0 40px;
+background-color:green;}
+.icon-area {display:flex; 
+align-items:center; 
+gap:10px;}
+.menubar ul {display:flex; 
+gap:10px;
+list-style-type:none;
+flex-wrap:wrap;
+}
+a {color:black;
+  text-decoration: none;}
+
+.icon-image{height:60px;
+width:auto;border:1px solid black;
+border-radius:50px;
+
+}
+
+  .icon-name {font-size:34px;
+      color:rgb(248, 245, 245); font-family: "Nabla", system-ui;}
+    
+   
+  .menubar {
+    margin-right:10px;
+  }
+   li{padding:5px;
+    border-radius:2px;
+    transition: transform 0.5s, background-color 0.5s;
+   }
+    li:hover{cursor:pointer;
+    background-color:white;
+  border-bottom:2px solid black;transform:scale(1.1);}
+
+  .main-content { background-image: url('background4.jpg'); height:500px;
+  background-repeat:no-repeat; background-size:cover;
+  text-align:center;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+flex-wrap:wrap;
+color:red;
+text-shadow: 2px 2px 6px black;
+    position: relative; font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tag1 {font-size:40px;}
+.tag {margin-top:2px;
+padding:80px;}
+.services { display:flex;
+flex-wrap:wrap;
+width:auto;
+text-align:center;
+margin-top:20px;
+justify-content:center;
+gap:20px;
+}
+
+
+.services-heading {text-align:center;}
+
+.card1, .card2, .card3 {max-width:300px;
+border:1px solid rgb(206, 19, 19);
+border-radius:2px;
+padding:5px;
+transition:transform 0.5s}
+.card1:hover {transform:scale(1.1);}
+.card2:hover {transform:scale(1.1);}
+.card3:hover {transform:scale(1.1);}
+.img1, .img2, .img3 {width:100%;height:auto;border-radius:5px;}
+
+
+.about-us { 
+padding-top:40px;
+display:flex;
+background-color:aliceblue;
+gap:10px;
+justify-content:space-evenly;
+flex-wrap:wrap;
+margin-top:20px;
+}
+.side-image {max-width: 400px;}
+.side-text {max-width:500px;
+text-align:justify;}
+
+.footer {background-color:brown;text-align:center;
+color:white;
+display:flex;
+justify-content:space-evenly;
+}
+@media (max-width:700px){ .menubar{display:none;}
+.main-content{background-size:contain;
+height:500px; margin-top:10px;}
+.services-heading {
+  margin:0;padding:0;
+}
+
+}
