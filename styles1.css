@@ -102,11 +102,15 @@ color:white;
 display:flex;
 justify-content:space-evenly;
 }
-@media (max-width:700px){ .menubar{display:none;}
+@media (max-width:700px){  .home{display:none;}
+.about {display:none;}
 .main-content{background-size:contain;
 height:500px; margin-top:10px;}
 .services-heading {
   margin:0;padding:0;
 }
-
+.icon-name {font-size:10px;}
+.tag{
+  padding:5px;
+}
 }
